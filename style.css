@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-link{
+    background-color: #E76F51;
+    color: white;
+    padding: 10px 24px;
+    box-shadow: none;
+}
+.featured-bike{
+   filter: grayscale(100%);
+}
+.featured-bike:hover{
+    filter: grayscale(0) ;
+}
+.featured-bike2:hover{
+    filter: grayscale(100%);
+}
+.custom-accordion .accordion-item{
+    border: 1px solid #D5E5FB;
+    border-radius: 5px;
+}
+.custom-accordion button{
+    font-weight: 500;
+    font-size: 20px;
+}
